@@ -28,6 +28,6 @@ public class Plate {
         String bite = bites.poll();
         System.out.println("Bambino ha mangiato: " + bite + ". Bocconi rimasti nel piatto: " + bites.size());
         notifyAll(); // Notifica che c'è spazio disponibile
-        return bite;
+        return bite; 
     }
 }
